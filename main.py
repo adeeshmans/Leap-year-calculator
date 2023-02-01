@@ -1,7 +1,7 @@
-
+# Leap year calculator
 year = int(input("Which year do you want to check? "))
 
-
+# Formula
 if year % 4 == 0:
   if year % 100 == 0:
     if year % 400 == 0:
